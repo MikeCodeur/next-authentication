@@ -1,5 +1,5 @@
 import {RoleEnum} from '@/lib/type'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import {addUser, getUserByEmail} from '@/db/sgbd'
 import {SignInError} from './type'
 import {createSession, deleteSession} from './session-stateless'
